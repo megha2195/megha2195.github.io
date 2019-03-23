@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: cursive;
+    text-align: center;
+    background-color: #F0C2FE;
+}
+h1{
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.12);
+
+    background-color: #FDFBFE;
+    padding: 5px 15px 9px;
+    color: #877B97;
+    margin: 20px auto;
+    display: inline-block;
+    text-align: center;
+}
+
+h2{
+    margin: 0px;
+}
+
+#assignment3_header nav.navbar {
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.12);
+    background-color: ##F4ACAC;
+    border-radius: 0px;
+    align-items: center;
+    padding: 10px 0px;
+}
+#assignment3_header .navbar-default .navbar-brand{
+    color: #877B97;
+    font-size: 30px;
+}
+.meal_box{
+    position: relative;
+    background-color: #FDFBFE;
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.12);
+}
+
+.meal_box .meal_title {
+    padding: 3px 20px;
+    min-width: 135px;
+    min-height: 30px;
+    margin: 15px 0px 10px;
+    display: inline-block;
+}
+
+.meal_title.chicken h2{color:#FD51C4}
+.meal_title.beef h2{color: #366CFE}
+.meal_title.sushi h2{color: #15AC47}
+
+.meal_box p{
+    padding: 5px 10px 10px;
+    margin: 0px;
+    clear: right;
+}
+
+@media (max-width : 767px){
+    #assignment3_header nav.navbar{
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #877B97;
+    }
+    #assignment3_menu{
+
+        background-color: #fff;
+        width: 90%;
+        margin: 0 auto;
+        margin: 0 auto 10px;
+    }
+    #assignment3_menu ul{
+        margin: 0px;
+    }
+    #assignment3_menu ul li{
+        border-bottom: 0.5px solid #877B97;
+    }
+    #assignment3_menu ul li:last-child{
+        border-bottom: 0px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #000;
+        font-family: monospace;
+        font-size: 18px;
+    }
+}
