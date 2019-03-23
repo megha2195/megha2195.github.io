@@ -1,62 +1,65 @@
-* {
+*{
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-body{
-    background-color: #9aeded;
-}
-
-.box {
-    width: 700px
-}
-h1 {
+h1, h2{
     text-align: center;
-    padding: 20px;
+    text-transform: capitalize;
 }
-h4 {
+
+h2{
     margin: 0px;
-    padding: 5px;
-    border: 1px solid black;
-    border-top: 0px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
 }
-p {
-    color: white;
-    padding: 50px 17px 10px 17px;
+.container{
+    width: 95%;
+    margin: 0 auto;
 }
-.backgroud-1 {
-    background-color: #0081ff;
+ .col-sm-12, .col-md-6, .col-md-12, .col-lg-4 {
+  padding-right: 10px;
+  padding-left: 10px;
+  float: left;
+  margin-bottom: 20px;
 }
-.backgroud-2 {
-    background-color: #00ff4b;
+
+.col-lg-4{
+    width: 33.33%;
 }
-.backgroud-3 {
-    background-color: #ff0062;
-    color: #ffffff;
+
+.section{
+    border: 1px solid #000;
+    background-color: #9d9e9c;
 }
-.p-section {
-    height: 250px;
-    background-color:royalblue; 
-    border: 1px solid black;
-    margin-bottom: 30px;
+
+.section_title{
     position: relative;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    top: -1px;
+    right: -1px;
+    padding:3px 20px;
+    border: 1px solid #000;
+    min-width: 135px;
+    min-height: 30px;
+    float: right;
 }
-/*
-!**************** Desktop *******************!
-@media (min-width: 992px) {
+.section_title.chicken{background-color: #d59898}
+.section_title.beef{background-color: #c14543}
+.section_title.sushi{background-color: #e5d198}
+.section_title.beef h2{color:#fff}
 
+.section p{
+    padding: 5px 10px 10px;
+    margin: 0px;
+    clear: right;
 }
-!**************** Tablet *******************!
-@media (min-width: 768px) and (max-width: 991px) {
-
+@media (max-width:991px){  
+    .col-md-12{
+        width: 100%;
+    } 
+    .col-md-6{
+        width: 50%;
+    }
 }
-!**************** Mobile *******************!
-@media (max-width: 767px) {
-
+@media (max-width:767px){
+    .col-sm-12{
+        width: 100%;
+    }
 }
-*/
